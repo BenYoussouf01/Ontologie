@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="file:/C:/Users/abben/OneDrive/Bureau/Ontologie/PolicyIndividuals.owl" uri="PolicyIndividuals1.owl"/>
+    <uri id="Imports Wizard Entry" name="file:/C:/Users/abben/OneDrive/Bureau/Ontologie/NetworkGeoIndividuals.owl" uri="NetworkGeoIndividuals1.owl"/>
+    <uri id="Imports Wizard Entry" name="http://abdourahmane.com/ontology/AssetIndividuals" uri="AssetIndividuals1.owl"/>
+    <uri id="Imports Wizard Entry" name="http://abdourahmane.com/ontology/FactsIndividuals" uri="FactsIndividuals1.owl"/>
+    <uri id="Imports Wizard Entry" name="http://abdourahmane.com/ontology/IdentityIndividuals" uri="IdentityIndividuals1.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/TEMP" uri="file:/D:/Ontologie/AssetsRoleCatalog.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/TEMP" uri="AssetsRoleCatalog.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/TEMP" uri="Policies.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1770186090583" name="http://www.semanticweb.org/benyoussouf/ontologies/2026/0/SocOntologie1" uri="Ontologief.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1770186090583" name="http://www.semanticweb.org/benyoussouf/ontologies/2026/0/SocOntologiefinal" uri="FinalOntlogie.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1770186090583" name="http://www.semanticweb.org/benyoussouf/ontologies/2026/0/untitled-ontology-12" uri="Ontologie1.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1770186090583" name="http://www.semanticweb.org/benyoussouf/ontologies/2026/0/untitled-ontology-13" uri="ontologie2.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1770186090583" name="shadowed:http://www.semanticweb.org/benyoussouf/ontologies/2026/0/SocOntologie1" uri="mon%20ontologi/Ontologief.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1770186090583" name="shadowed:http://www.semanticweb.org/benyoussouf/ontologies/2026/0/SocOntologiefinal" uri="mon%20ontologi/FinalOntlogie.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1770186090583" name="shadowed:http://www.semanticweb.org/benyoussouf/ontologies/2026/0/SocOntologiefinal" uri="final.txt/FinalOntlogie.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1770186090583" name="shadowed:http://www.semanticweb.org/benyoussouf/ontologies/2026/0/untitled-ontology-12" uri="mon%20ontologi/Ontologie1.owx"/>
+        <uri id="Automatically generated entry, Timestamp=1770186090583" name="shadowed:http://www.semanticweb.org/benyoussouf/ontologies/2026/0/untitled-ontology-13" uri="mon%20ontologi/ontologie2.owx"/>
+    </group>
+</catalog>
