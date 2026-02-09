@@ -4,32 +4,40 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<NetworkGeoIndividuals.owl> rdf:type owl:Ontology .
+<http://abdourahmane.com/ontology/NetworkGeoIndividuals> rdf:type owl:Ontology ;
+    owl:imports <https://raw.githubusercontent.com/BenYoussouf01/Ontologie/main/NetworkGeo.owl> .
+
+############################
+### PROPERTIES
+############################
+
+:hasCIDR rdf:type owl:ObjectProperty .
+
+:allowedCountry rdf:type owl:ObjectProperty .
 
 ############################
 ### NETWORK ZONES
 ############################
 
 :OfficeCIDR_Zone rdf:type :OfficeCIDR .
+
 :TrustedVPN_Zone rdf:type :TrustedVPN .
+
 :ExternalAllowlist_Zone rdf:type :ExternalAllowlist .
 
 ############################
-### CIDR BLOCKS (individus)
+### CIDR BLOCKS
 ############################
 
-# Office CIDRs
 :CIDR_192_168_1_0_24 rdf:type :CIDRBlock ;
     rdfs:label "192.168.1.0/24" .
 
 :CIDR_10_10_0_0_16 rdf:type :CIDRBlock ;
     rdfs:label "10.10.0.0/16" .
 
-# Trusted VPN
 :CIDR_203_0_113_0_28 rdf:type :CIDRBlock ;
     rdfs:label "203.0.113.0/28" .
 
-# External Allowlist
 :CIDR_8_8_8_8_32 rdf:type :CIDRBlock ;
     rdfs:label "8.8.8.8/32" .
 
@@ -45,7 +53,7 @@
 :ExternalAllowlist_Zone :hasCIDR :CIDR_8_8_8_8_32 .
 
 ############################
-### COUNTRIES (individus)
+### COUNTRIES
 ############################
 
 :CA rdf:type :Country ;
