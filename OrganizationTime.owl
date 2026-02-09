@@ -4,18 +4,29 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<OrganizationTime.owl> rdf:type owl:Ontology ;
-    owl:imports <NetworkGeo.owl> .
+<http://abdourahmane.com/ontology/OrganizationTime> rdf:type owl:Ontology ;
+    owl:imports <https://raw.githubusercontent.com/BenYoussouf01/Ontologie/main/NetworkGeo.owl> .
 
-### Classes
+############################
+### CLASSES
+############################
+
 :Organization rdf:type owl:Class .
+
 :BusinessHours rdf:type owl:Class .
+
 :WeekdaySchedule rdf:type owl:Class .
+
 :Holiday rdf:type owl:Class .
+
 :MaintenanceWindow rdf:type owl:Class .
+
 :Timezone rdf:type owl:Class .
 
-### Object properties
+############################
+### OBJECT PROPERTIES
+############################
+
 :hasBusinessHours rdf:type owl:ObjectProperty ;
     rdfs:domain :Organization ;
     rdfs:range :BusinessHours .
@@ -32,7 +43,10 @@
     rdfs:domain :Organization ;
     rdfs:range :Country .
 
-### Data properties
+############################
+### DATA PROPERTIES
+############################
+
 :windowStart rdf:type owl:DatatypeProperty ;
     rdfs:domain :MaintenanceWindow ;
     rdfs:range xsd:dateTime .
