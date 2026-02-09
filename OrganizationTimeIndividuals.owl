@@ -4,7 +4,14 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<OrganizationTimeIndividuals.owl> rdf:type owl:Ontology .
+<http://abdourahmane.com/ontology/OrganizationTimeIndividuals> rdf:type owl:Ontology ;
+    owl:imports <https://raw.githubusercontent.com/BenYoussouf01/Ontologie/main/OrganizationTime.owl> .
+
+############################
+### PROPERTIES
+############################
+
+:hasSchedule rdf:type owl:ObjectProperty .
 
 ############################
 ### ORGANIZATION
