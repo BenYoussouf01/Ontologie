@@ -5,9 +5,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://abdourahmane.com/ontology/AssetIndividuals1> rdf:type owl:Ontology ;
-    owl:imports <http://abdourahmane.com/ontology/AssetsRoleCatalog> ;
-    owl:imports <http://abdourahmane.com/ontology/IdentityUsersGroupsRoles> ;
-    owl:imports <http://abdourahmane.com/ontology/NetworkGeo> .
+    owl:imports <https://raw.githubusercontent.com/BenYoussouf01/Ontologie/main/AssetsRoleCatalog.owl> ;
+    owl:imports <https://raw.githubusercontent.com/BenYoussouf01/Ontologie/main/IdentityUsersGroupsRoles.owl> ;
+    owl:imports <https://raw.githubusercontent.com/BenYoussouf01/Ontologie/main/NetworkGeo.owl> .
 
 ############################
 ### ASSET ROLES
@@ -82,4 +82,5 @@
 ############################
 ### SITES
 ############################
+
 :HQ rdf:type :Site .
