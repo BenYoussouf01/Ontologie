@@ -4,21 +4,31 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<NetworkGeo.owl> rdf:type owl:Ontology .
+<http://abdourahmane.com/ontology/NetworkGeo> rdf:type owl:Ontology .
 
-### Classes
+############################
+### CLASSES
+############################
+
 :NetworkZone rdf:type owl:Class .
+
 :OfficeCIDR rdf:type owl:Class ;
     rdfs:subClassOf :NetworkZone .
+
 :TrustedVPN rdf:type owl:Class ;
     rdfs:subClassOf :NetworkZone .
+
 :ExternalAllowlist rdf:type owl:Class ;
     rdfs:subClassOf :NetworkZone .
 
 :CIDRBlock rdf:type owl:Class .
+
 :Country rdf:type owl:Class .
 
-### Object properties
+############################
+### OBJECT PROPERTIES
+############################
+
 :hasCIDR rdf:type owl:ObjectProperty ;
     rdfs:domain :NetworkZone ;
     rdfs:range :CIDRBlock .
